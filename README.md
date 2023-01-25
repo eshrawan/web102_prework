@@ -24,6 +24,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/34649975/214643829-34d13260-6829-4261-8f3c-50257ff19a1c.gif)
 
 GIF created with EZGif.
 
