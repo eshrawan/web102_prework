@@ -21,7 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
 }
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+  }
 
 .stats-card {
     background-color: #a8b0bc;
@@ -72,4 +78,23 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#search-bar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.submit {
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 8ex;
+    margin: 0;
+    padding: 2px;
+}
+
+input[type="text"],
+.submit {
+    float: left;
 }
