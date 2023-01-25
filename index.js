@@ -120,7 +120,7 @@ function showAllGames() {
 function showSearchGame() {
     deleteChildElements(gamesContainer);
 
-    const navBar = document.getElementById("nav-bar");
+    const navBar = document.getElementById("search-bar");
     const filteredGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(navBar.value.toLowerCase()));
     filteredGames.length === 0 ? gamesContainer.innerHTML = "Nothing here." : addGamesToPage(filteredGames);
 }
